@@ -1,8 +1,10 @@
 var gulp = require('gulp');
-// Requires the gulp-sass plugin
+var browserSync = require('browser-sync').create();
 var sass = require('gulp-sass');
-gulp.task('sass', function(){
-    return gulp.src('app/scss/*.scss')
-      .pipe(sass()) // Converts Sass to CSS with gulp-sass
-      .pipe(gulp.dest('app/css'))
-  });
+//convert scss files to css
+gulp.task('sass',function(){
+return gulp.src(['node_modules/bootstrap/scss/bootstrap.scss', 'src/scss/*.scss'])
+  .pipe(sass())
+  .pipe(gulp.dest('app/css'))
+  .pipe(browserSync.stream());
+});
