@@ -4,14 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "autoprefixer": "^9.8.6",
-    "browser-sync": "^2.26.12",
     "css-loader": "^4.2.1",
     "exports-loader": "^1.1.0",
     "gulp": "^4.0.2",
