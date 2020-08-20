@@ -2,7 +2,7 @@ function loginValidate(){
     var username = document.getElementById('exampleInputUsername').value;
     var password = document.getElementById('exampleInputPassword').value;
     //console.log(username, password);
-    if (username == '' || username == '' ){
+    if (username == '' || password == '' ){
         alert('Username and password must not be blank!');
     }
     else{
