@@ -9,20 +9,12 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "autoprefixer": "^9.8.6",
-    "css-loader": "^4.2.1",
-    "exports-loader": "^1.1.0",
     "gulp": "^4.0.2",
-    "gulp-sass": "^4.1.0",
-    "node-sass": "^4.14.1",
-    "postcss-loader": "^3.0.0",
-    "sass-loader": "^9.0.3",
-    "style-loader": "^1.2.1",
-    "webpack": "^4.44.1",
-    "webpack-cli": "^3.3.12"
+    "gulp-sass": "^4.1.0"
   },
   "dependencies": {
     "bootstrap": "^4.5.2",
+    "browser-sync": "^2.26.12",
     "jquery": "^3.5.1",
     "popper.js": "^1.16.1"
   }
